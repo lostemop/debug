@@ -8,7 +8,8 @@
  */
 error_reporting(E_ALL);
 ini_set( 'display_errors', 'On');
-xdebug_break();
+
+
 //E_PARSE
 //$deal=''
 //E_WARNING

@@ -8,9 +8,11 @@
 //ini_set('xdebug.var_display_max_children',2);
 //ini_set('xdebug.var_display_max_data',160);
 //ini_set('xdebug.var_display_max_depth',5);
+
 var_dump(ini_get('xdebug.var_display_max_children'));
 var_dump(ini_get('xdebug.var_display_max_data'));
 var_dump(ini_get('xdebug.var_display_max_depth'));
+
 class test {
     public $pub = false;
     private $priv = true;

@@ -1,7 +1,6 @@
 <?php
-//ini_set('xdebug.coverage_enable',1);
-xdebug_start_code_coverage();
-
+ini_set('xdebug.coverage_enable',1);
+xdebug_start_code_coverage(-2);
 function a($a) {
     echo $a * 2.5;
 }
@@ -13,7 +12,7 @@ function b($count) {
 }
 
 b(6);
-//b(10);
 
 var_dump(xdebug_get_code_coverage());
+
 ?>
