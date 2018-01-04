@@ -9,9 +9,9 @@
 //ini_set('xdebug.var_display_max_data',160);
 //ini_set('xdebug.var_display_max_depth',5);
 
-var_dump(ini_get('xdebug.var_display_max_children'));
+/*var_dump(ini_get('xdebug.var_display_max_children'));
 var_dump(ini_get('xdebug.var_display_max_data'));
-var_dump(ini_get('xdebug.var_display_max_depth'));
+var_dump(ini_get('xdebug.var_display_max_depth'));*/
 
 class test {
     public $pub = false;
@@ -32,7 +32,7 @@ $data = array(
             ),
         ),
     ),
-    'three' => $t,
+   'three' => $t,
     'four' => range(0, 5),
 );
 var_dump($data);
